@@ -1,0 +1,137 @@
+body {
+/*    background-image : url("educolor-example.jpg");*/
+    margin: 0;
+    background-color: #F07D2F;
+    background-image: url(assets/testpattern.jpg);
+/*    padding: :0;*/
+/*    background-color: aquamarine;*/
+}
+
+/*
+#title {
+    text-align: center;
+    font-size: x-large;
+    font-family: sans-serif;
+    color: #FFFFFF;
+*/
+/*
+    margin-top: 20;
+    margin-bottom: 20
+*/
+/*
+div > canvas{
+    background-color: purple;
+}
+*/
+/*
+canvas{
+        width: 410;
+        height: 732;
+}
+*/
+
+/*
+canvas{
+         width: 1000;
+    height: 1800;
+
+}
+*/
+
+
+
+/*phones*/
+@media only screen and (max-width: 980px) {
+canvas{
+    width: 1000px;
+    height: 1800px;
+    }
+}
+
+
+/*small phones*/
+/*
+@media only screen and (min-height: 900px)  {
+canvas{
+    width: 1000px;
+    height: 1800px;
+    margin-top: 10%;
+    }
+}
+*/
+
+
+
+/*big tablets (ipad pro) */
+
+@media only screen and (min-width: 1000px)  {
+canvas{
+    width: 750px;
+    height: 1350px;
+    margin-left:13%;
+    }
+}
+
+/*desktops*/
+@media only screen and (min-width: 1100px)  {
+canvas{
+    width: 425px;
+    height: 765px;
+    margin-left:35%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+@media only screen and (max-width: 200px) {
+canvas{
+    width: 1000px;
+    height: 1350;
+    }
+}
+*/
+
+
+
+
+
+
+
+
+/*
+@media only screen and (max-width: 1000px) {
+canvas{
+    width: 1000;
+    height: 1330;
+    }
+}
+*/
+
+/*
+@media only screen and (max-width: 390px) {
+canvas{
+    width: 50;
+    height: 1800;
+    }
+}
+*/
