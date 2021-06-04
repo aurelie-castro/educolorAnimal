@@ -7,7 +7,7 @@ var config = {
         preload: preload,
         create: create
     },
-    backgroundColor: '#ff8000'
+    backgroundColor: '#78B633'
 };
 
 var game = new Phaser.Game(config);
@@ -116,16 +116,16 @@ function preload ()
     
     
     //---backgrounds---
-    this.load.image('bg', 'assets/new-bg1.jpg');
-    this.load.image('bg2', 'assets/bg2.jpg');
-    this.load.image('bg3', 'assets/bg3.jpg');
-    this.load.image('bg4', 'assets/bg4.jpg');
-    this.load.image('bg5', 'assets/bg5.jpg');
-    this.load.image('bg6', 'assets/bg6.jpg');
-    this.load.image('bg7', 'assets/new-bg7.jpg');
-    this.load.image('bg8', 'assets/bg8.jpg');
-    this.load.image('bg9', 'assets/bg9.jpg');
-    this.load.image('bg10', 'assets/bg10.jpg');
+    this.load.image('bg', 'assets/animal1.jpg');
+    this.load.image('bg2', 'assets/animal2.jpg');
+    this.load.image('bg3', 'assets/animal3.jpg');
+    this.load.image('bg4', 'assets/animal4.jpg');
+    this.load.image('bg5', 'assets/animal5.jpg');
+    this.load.image('bg6', 'assets/animal6.jpg');
+    this.load.image('bg7', 'assets/animal7.jpg');
+    this.load.image('bg8', 'assets/animal8.jpg');
+    this.load.image('bg9', 'assets/animal9.jpg');
+    this.load.image('bg10', 'assets/animal10.jpg');
 //    this.load.image('bg11', 'assets/p5-2.jpeg');
 //    this.load.image('bg12', 'assets/p5-3.jpeg');
 //    this.load.image('bg13', 'assets/p6-1.jpeg');
