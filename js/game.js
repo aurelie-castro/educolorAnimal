@@ -72,7 +72,7 @@ console.warn = () => {};
 function preload ()
 {
     //image de cover (educolor) avec le bouton start    
-    var bgImage = this.load.image('testEdu', 'assets/Cover-01.jpg');
+    var bgImage = this.load.image('testEdu', 'assets/animals-01.jpg');
     
     //--------brushes-------
     //white
@@ -138,14 +138,14 @@ function preload ()
     this.load.image('colorPalette', 'assets/couleurs-version3.png');
     
     
-    this.load.audio('testAudio', 'assets/airport.wav');
+//    this.load.audio('testAudio', 'assets/airport.wav');
     
 }
 
 function create ()
 {
     
-    testSound = this.sound.add('testAudio');
+//    testSound = this.sound.add('testAudio');
     
     //---tests for responsive---
     let screenWidth = screen.width;
@@ -154,7 +154,7 @@ function create ()
 //    console.log( 'the screen height is ' + screenHeight);
     
     //---start menu of game (cover)---
-    bgImage = this.add.image(180, 315, 'testEdu');
+    bgImage = this.add.image(180, 320, 'testEdu');
     bgImage.setDepth(2);
     
     //--------background images------------
@@ -260,7 +260,6 @@ function create ()
             if (pointer.isDown && blackColor === true)
             {
                 //permet de dessiner
-                game.sound.mute = true;
                 if(currentlyColoring === true){
                     brushStroke = this.add.image(pointer.x, pointer.y, 'black').setInteractive();
                 }
@@ -440,6 +439,10 @@ function create ()
             }
             
         }
+//        else if(pointer.x > 8 && pointer.y > 540){
+//            console.log("stoooop");
+//            
+//        }
         
         
 
