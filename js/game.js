@@ -1,5 +1,5 @@
 var config = {
-    type: Phaser.AUTO,
+    type: Phaser.CANVAS,
     parent: 'phaser-example',
     width: 360,
     height: 640,
@@ -72,7 +72,7 @@ console.warn = () => {};
 function preload ()
 {
     //image de cover (educolor) avec le bouton start    
-    var bgImage = this.load.image('testEdu', 'assets/animals-01.jpg');
+    var bgImage = this.load.image('testEdu', 'assets/Cover-01.jpg');
     
     //--------brushes-------
     //white
