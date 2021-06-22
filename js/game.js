@@ -74,7 +74,7 @@ console.warn = () => {};
 function preload ()
 {
     //image de cover (educolor) avec le bouton start    
-    var bgImage = this.load.image('testEdu', 'assets/Cover-01.jpg');
+    var bgImage = this.load.image('testEdu', 'assets/Cover.jpg');
     
     //--------brushes-------
     //white
