@@ -126,7 +126,7 @@ function preload ()
     this.load.image('bg8', 'assets/animal8.jpg');
     this.load.image('bg9', 'assets/animal9.jpg');
     this.load.image('bg10', 'assets/animal10.jpg');
-//    this.load.image('bg11', 'assets/p5-2.jpeg');
+    this.load.image('bg11', 'assets/animal11.jpeg');
 //    this.load.image('bg12', 'assets/p5-3.jpeg');
 //    this.load.image('bg13', 'assets/p6-1.jpeg');
 //    this.load.image('bg14', 'assets/p6-2.jpeg');
