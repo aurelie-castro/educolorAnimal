@@ -139,6 +139,9 @@ function preload ()
     //-----rangées de cercles-----------
     this.load.image('colorPalette', 'assets/couleurs-version3.png');
     
+    //---refresh button---
+    this.load.image('refresh', 'assets/refresh (5).png');
+    
     
 //    this.load.audio('testAudio', 'assets/airport.wav');
     
@@ -158,6 +161,11 @@ function create ()
     //---start menu of game (cover)---
     bgImage = this.add.image(180, 320, 'testEdu');
     bgImage.setDepth(2);
+    
+    refreshArrow = this.add.image(317.5, 592, 'refresh');
+    refreshArrow.setDepth(1);
+    refreshArrow.setScale(0.13);
+    refreshArrow.setVisible(false);
     
     //--------background images------------
     
@@ -232,6 +240,8 @@ function create ()
 
     if(dessinFini === "9"){
         bg10.setVisible(true);
+        refreshArrow.setVisible(true);
+        console.log("visibleee");
     }
     
     if(dessinFini === "10"){
